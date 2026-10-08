@@ -1,0 +1,29 @@
+BUG-002: Left navigation bar text overflows and overlaps other menu elements
+
+Website: https://demoqa.com/browser-windows
+
+Environment: Windows 11, Microsoft Edge
+
+Description
+
+The left navigation bar displays text that overflows its designated menu area. The "Alerts, Frame & Windows" category label extends beyond its intended boundaries and overlaps with the "Browser Windows" submenu item, causing the navigation menu to appear incorrectly formatted.
+
+Steps to Reproduce
+
+1. Navigate to https://demoqa.com/browser-windows.
+2. Locate the left navigation bar.
+3. Expand the "Alerts, Frame & Windows" category.
+4. Observe the positioning of the category label and its submenu items.
+5. Notice that the text overlaps with the "Browser Windows" submenu item.
+
+Expected Result
+
+The navigation bar should display all category labels and submenu items within their designated boundaries, without any text overlapping or overflowing into other elements.
+
+Actual Result
+
+The "Alerts, Frame & Windows" category label overflows its container and overlaps with the "Browser Windows" submenu item, making the navigation bar appear cluttered and difficult to read.
+
+Impact
+
+This issue negatively affects the website's visual appearance and usability. Overlapping text makes navigation more difficult and may confuse users when trying to identify or select menu options.

@@ -1,0 +1,31 @@
+TC-002: Verify that the New Tab button opens a new browser tab
+
+Website: https://demoqa.com/browser-windows
+
+Environment: Windows 11, Microsoft Edge
+
+Description
+
+Verify that clicking the "New Tab" button opens a new browser tab containing the expected message without closing or replacing the original page.
+
+Preconditions
+
+The user has opened the Browser Windows page.
+
+Test Data
+
+No additional test data required.
+
+Steps to Reproduce
+
+1. Navigate to https://demoqa.com/browser-windows.
+2. Locate the "New Tab" button.
+3. Click the "New Tab" button.
+4. Observe whether a new browser tab opens.
+5. Switch to the newly opened tab.
+6. Verify that the message "This is a sample page" is displayed.
+7. Return to the original browser tab.
+
+Expected Result
+
+A new browser tab should open and display the message "This is a sample page". The original DemoQA page should remain open and accessible.

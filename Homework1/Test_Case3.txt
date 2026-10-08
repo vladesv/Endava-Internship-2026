@@ -1,0 +1,32 @@
+TC-003: Verify that the progress bar reaches 100% and can be reset
+
+Website: https://demoqa.com/progress-bar
+
+Environment: Windows 11, Microsoft Edge
+
+Description
+
+Verify that the progress bar starts correctly, increases its percentage until reaching 100%, and can be reset to its initial state.
+
+Preconditions
+
+The user has opened the Progress Bar page, and the progress bar is in its initial state.
+
+Test Data
+
+No additional test data required.
+
+Steps to Reproduce
+
+1. Navigate to https://demoqa.com/progress-bar.
+2. Locate the progress bar and the "Start" button.
+3. Click the "Start" button.
+4. Observe the progress bar increasing its percentage.
+5. Wait until the progress bar reaches 100%.
+6. Verify that the progress bar stops at 100%.
+7. Click the "Reset" button.
+8. Observe whether the progress bar returns to its initial state.
+
+Expected Result
+
+The progress bar should start increasing after clicking "Start", reach 100%, and stop automatically. After clicking "Reset", the progress bar should return to 0% and be ready to start again.

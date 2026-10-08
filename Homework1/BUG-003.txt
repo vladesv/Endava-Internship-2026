@@ -1,0 +1,29 @@
+BUG-003: Progress bar turns green before the loading process is completed
+
+Website: https://demoqa.com/progress-bar
+
+Environment: Windows 11, Microsoft Edge
+
+Description
+
+The progress bar changes its color to green before the loading process reaches 100%. This creates misleading visual feedback, as the green color suggests that the loading process has been successfully completed, even though it is still in progress.
+
+Steps to Reproduce
+
+1. Navigate to https://demoqa.com/progress-bar.
+2. Locate the progress bar and click the "Start" button.
+3. Observe the progress bar as the loading percentage increases.
+4. Notice that the progress bar changes its color from blue to green before reaching 100%.
+5. Observe that the loading process continues after the color change.
+
+Expected Result
+
+The progress bar should remain blue while the loading process is in progress and turn green only when it reaches 100%, indicating successful completion.
+
+Actual Result
+
+The progress bar changes its color to green before reaching 100%, even though the loading process is still ongoing.
+
+Impact
+
+This issue may confuse users by giving the impression that the loading process has finished when it is still running. The inconsistent visual feedback can negatively affect the user experience and make it difficult to determine the actual completion status.

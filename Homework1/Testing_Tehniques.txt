@@ -1,0 +1,12 @@
+1. Error Guessing
+Error Guessing is a software testing technique in which the tester uses their experience, intuition, and knowledge of common software defects to identify areas where bugs are likely to occur.
+Unlike structured testing techniques that follow predefined rules or calculations, Error Guessing relies on the tester's ability to anticipate potential failures based on previous testing experience and an understanding of how the application works.
+The main goal of this technique is to discover defects that might not be identified through standard test cases. It encourages testers to think beyond the expected behavior of the application and consider unusual user actions, incorrect inputs, or unexpected situations.
+Although Error Guessing is less systematic than other techniques, it can be very effective when combined with structured testing methods. Its effectiveness depends largely on the tester's experience, creativity, and familiarity with common software issues.
+
+2. Metamorphic Testing
+Metamorphic Testing is a software testing technique used when it is difficult or impossible to determine the exact expected output of a system for a particular input.
+Instead of checking whether a single result is correct, this technique focuses on verifying relationships between the results of multiple test executions. These relationships are called metamorphic relations and describe how the output of a system should behave when its input is modified in a specific way.
+The testing process involves executing an initial test, modifying certain input conditions, and then comparing the results to determine whether the expected relationship is maintained.
+The main advantage of Metamorphic Testing is that it allows testers to identify inconsistencies and potential defects without needing to know the exact correct result for every individual test.
+This technique is particularly useful for complex applications where calculating or predicting the expected output is challenging. It helps improve test coverage by examining how consistently a system behaves under different conditions.

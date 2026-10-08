@@ -1,0 +1,36 @@
+TC-001: Verify successful submission of the Student Registration Form
+
+Website: https://demoqa.com/automation-practice-form
+
+Environment: Windows 11, Microsoft Edge
+
+Description
+
+Verify that a user can successfully complete and submit the Student Registration Form using valid information.
+
+Preconditions
+
+The user has opened the Student Registration Form page.
+
+Test Data
+
+First Name: John
+Last Name: Smith
+Email: john.smith@example.com
+Gender: Male
+Mobile: 0712345678
+
+Steps to Reproduce
+
+1. Navigate to https://demoqa.com/automation-practice-form.
+2. Enter "John" in the First Name field.
+3. Enter "Smith" in the Last Name field.
+4. Enter "john.smith@example.com" in the Email field.
+5. Select "Male" under Gender.
+6. Enter "0712345678" in the Mobile field.
+7. Click the "Submit" button.
+8. Observe the confirmation message.
+
+Expected Result
+
+The form should be submitted successfully, and a confirmation window should appear displaying the submitted student information.
